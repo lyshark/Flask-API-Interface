@@ -1,7 +1,6 @@
 # Flask-API-Interface
+
 运用Flask 开发的一款简单的API接口，支持GET/POST请求响应。
-
-
 
 ## 3.1 获取Token
 
@@ -46,8 +45,6 @@
 **返回示例： 1：成功，0：失败**
 
 {\"status\": \"1\",\"user\": \"lyshark\"}
-
-## 
 
 ## 3.3 刷新Token
 
@@ -191,9 +188,7 @@
 
 **返回示例：**
 
-{\"status\": \"1\", \"count\": 2, \"group\": \"系统技术部\", \"message\": \[\[\"王瑞\", \"15646596977\", \"未授权用户\"\], \[\"郑凯\", \"15646585548\",
-
-\"已授权用户\"\]\]}
+{\"status\": \"1\", \"count\": 2, \"group\": \"系统技术部\", \"message\": \[\[\"王瑞\", \"15646596977\", \"未授权用户\"\], \[\"郑凯\", \"15646585548\",\"已授权用户\"\]\]}
 
 ## 3.9 修改当前用户组
 
@@ -259,9 +254,7 @@
 
 **返回示例：1：成功，0：失败**
 
-{\"status\": \"1\", \"lat_count\": 111, \"lat_rate\": 1.5, \"trajectory_count\": 255, \"trajectory_rate\": 5.4, \"enclosure_count\":
-
-444, \"enclosure_rate\": 7}
+{\"status\": \"1\", \"lat_count\": 111, \"lat_rate\": 1.5, \"trajectory_count\": 255, \"trajectory_rate\": 5.4, \"enclosure_count\":444, \"enclosure_rate\": 7}
 
 ## 3.12 查询指定手机号调用次数与费率信息
 
@@ -283,9 +276,7 @@
 
 **返回结果：1：成功，0：失败**
 
-{\"status\": \"1\", \"mobile\": \"15646596988\", \"lat_count\": 100, \"lat_rate\": 1.5, \"trajectory_count\": 255, \"trajectory_rate\":
-
-5.4, \"enclosure_count\": 444, \"enclosure_rate\": 7}
+{\"status\": \"1\", \"mobile\": \"15646596988\", \"lat_count\": 100, \"lat_rate\": 1.5, \"trajectory_count\": 255, \"trajectory_rate\":5.4, \"enclosure_count\": 444,  \"enclosure_rate\": 7}
 
 ## 3.13 查询授权/非授权用户列表
 
