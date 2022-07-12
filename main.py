@@ -551,7 +551,7 @@ def update_user_group():
 # ----------------------------------------------------------------------------------------------------------------------
 # 经纬度返回相关接口
 # ----------------------------------------------------------------------------------------------------------------------
-'''
+
 # 返回经纬度函数调用
 def GetLocationLatFunction(mobile):
     return_dict = {'status': '0', 'mobile': 'none', 'localtime': '0', 'longitude': 'none', 'latitude': 'none'}
@@ -628,7 +628,7 @@ def GetLocationLatFunction(mobile):
 
         app.logger.warning("定位接口函数异常")
         return return_dict
-'''
+
 
 # 调用经纬度函数
 def GetLocationLatFunction(mobile):
