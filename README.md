@@ -1,6 +1,6 @@
 # Flask-API-Interface
 
-运用Flask 开发的一款简单的API接口，支持GET/POST请求响应。
+运用Flask 开发的一款简单的API接口，支持GET/POST请求响应，只是写着玩的一个小玩意。
 
 ## 3.1 获取Token
 
