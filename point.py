@@ -1,3 +1,5 @@
+import os
+
 def isPointinPolygon(point, rangelist):  # [[0,0],[1,1],[0,1],[0,0]] [1,0.8]
     # 判断是否在外包矩形内，如果不在，直接返回false
     lnglist = []
