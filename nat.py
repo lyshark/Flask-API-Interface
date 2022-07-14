@@ -144,16 +144,5 @@ def GetLocation():
         return ref_json
     return None
 
-@app.route('/api/send_message', methods=['POST'])
-def SendMessage():
-    if request.method == "POST":
-        mobile = request.form.get("mobile")
-        message = request.form.get("message")
-
-        msg = "java SendTest '86{}' '{}'".format(mobile,message)
-        subprocess.Popen(msg, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        return "ok"
-    return "error"
-
 if __name__ == '__main__':
     app.run(host='127.0.0.1',port='9050',debug=False)
